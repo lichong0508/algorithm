@@ -9,7 +9,7 @@ public class Sort {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] numbers = {7,9,25,3,43,3,5,8,0,12};
+		int[] numbers = {7,2,4,5,3,8,9,1};
 		Sort sort = new Sort();
 		long startTime = System.nanoTime();
 		sort.insertSort(numbers);
@@ -131,7 +131,7 @@ public class Sort {
 	    int k = p;   
 	    while (s <= q && t <= r) {   
 	        if (data[s] <= data[t]) {   
-	            B[k] = data[s];   
+	            B[k] = data[s];    
 	            s++;   
 	        } else {   
 	            B[k] = data[t];   
